@@ -2,23 +2,23 @@
 # A node.js module that creates an angular.js module and inserts it into a browser session to replace a module in 
 # the angular app under test. It uses protractor to send the JS to the browser.
 ********************************************************************************************************************/
-var sfClientMock = {
-  sfClientModule: function() {
+var csClientMock = {
+  csClientModule: function() {
     angular
-      .module('SFClientModule', [])
-      .factory('SFClient', ['$q', function ($q) {
-        var sfClient = {};
+      .module('CSClientModule', [])
+      .factory('CSClient', ['$q', function ($q) {
+        var csClient = {};
 
-        sfClient.mockVolumes = [/*mock data goes here*/];
+        csClient.mockVolumes = [/*mock data goes here*/];
 
-        sfClient.getVolumeViewModels = function() {
+        csClient.getVolumeViewModels = function() {
           var self = this;
           return $q(function(resolve, reject) {
             resolve(self.mockVolumes);
           });
         };
 
-        sfClient.deleteVolume = function(volume) {
+        csClient.deleteVolume = function(volume) {
           for (var i = 0; i < this.mockVolumes.length; i++) {
             if (this.mockVolumes[i].volumeID === volume.volumeID) {
               this.mockVolumes.splice(i, 1);
@@ -32,7 +32,7 @@ var sfClientMock = {
           });
         };
 
-        return sfClient;
+        return csClient;
     }]);
   }
 };
