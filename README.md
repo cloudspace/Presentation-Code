@@ -11,15 +11,15 @@ The purpose of this repository is to display examples of some of Cloudspace's cl
  - Arel table joins:
    - https://github.com/cloudspace/Presentation-Code/blob/master/RoR/ArelJoins.rb
  - Proper use of Rails concerns:
-   - https://github.com/cloudspace/Presentation-Code/blob/master/RoR/PoperRailsConcerns.rb
+   - https://github.com/cloudspace/Presentation-Code/blob/master/RoR/ProperRailsConcerns.rb
 
 ## JavaScript
  - Custom Ajax error handling:
-   - https://github.com/cloudspace/Presentation-Code/blob/master/JS/JS-Snippets.js
+   - https://github.com/cloudspace/Presentation-Code/blob/master/JS/CustomAjaxHandling.js
  - Interval updating:
    - https://github.com/cloudspace/Presentation-Code/blob/master/JS/IntervalUpdating.js
  - Using Node to insert Angular in the browser:
-   - https://github.com/cloudspace/Presentation-Code/blob/master/JS/NodeAngularInsertion.rb
+   - https://github.com/cloudspace/Presentation-Code/blob/master/JS/NodeAngularInsertion.js
  - D3 component with React example:
    - https://github.com/cloudspace/Presentation-Code/blob/master/JS/D3ComponentIntegration.js
  - jQuery sticky headers:
