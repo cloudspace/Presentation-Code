@@ -25,6 +25,20 @@ The purpose of this repository is to display examples of some of Cloudspace's cl
  - jQuery sticky headers:
    - https://github.com/cloudspace/Presentation-Code/blob/master/JS/JquerySticky.js
 
+## Android
+ - Install an external APK bundled with the current application:
+   - https://github.com/cloudspace/Presentation-Code/blob/master/Android/CopyExternalAPKToDevice.java
+ - Detect if application is running on a VPN:
+   - https://github.com/cloudspace/Presentation-Code/blob/master/Android/DetectVPN.java
+ - Parse a JsonArray into an array of a supplied Object type:
+   - https://github.com/cloudspace/Presentation-Code/blob/master/Android/ParseArrayToClass.java
+
+## iOS
+ - Reflection addition for NSObject
+   - https://github.com/cloudspace/Presentation-Code/blob/master/iOS/NSObjectReflection.m
+ - Populate Objects with data coming back from an API by using reflection:
+   - https://github.com/cloudspace/Presentation-Code/blob/master/iOS/APIObjectsFromReflection.m
+
 ## Java
  - Custom DSL and interpreter:
    - https://github.com/cloudspace/Presentation-Code/blob/master/Java/CustomDSLInterpretation.java
